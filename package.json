@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "cpi ng generate component demobinding" : "ng generate component demobinding"
   },
   "private": true,
   "dependencies": {

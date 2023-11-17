@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { DemobindingComponent } from './demobinding/demobinding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DemobindingComponent
   ],
   imports: [
     BrowserModule
