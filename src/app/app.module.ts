@@ -8,12 +8,14 @@ import { AppRoutingModule } from "./app-routing.module";
 
 import {FormsModule} from "@angular/forms";//pour 2 way binding
 import { ProduitsComponent } from './produits/produits.component';
+import { AddproduitComponent } from './addproduit/addproduit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DemobindingComponent,
-    ProduitsComponent
+    ProduitsComponent,
+    AddproduitComponent
   ],
   imports: [
     BrowserModule,
