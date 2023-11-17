@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-demobinding',
@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./demobinding.component.css']
 })
 export class DemobindingComponent {
+  titre: string = "demobinding works!";
   demoInterpolation: string = "Demo binding Component : interpolation";
-  disableButton : boolean = true;
+  disableButton: boolean = true;
+
+  changerTitre() {
+    this.titre = "Nouveau titre";
+  }
 }
