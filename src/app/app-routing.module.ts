@@ -8,6 +8,7 @@ const routes: Routes = [
   {path: "produits", component: ProduitsComponent},
   {path:"demobinding",component:DemobindingComponent},
   {path: "add-produit", component: AddproduitComponent},
+  {path: "", redirectTo: "demobinding", pathMatch: "full"},
 ];
 
 @NgModule({
