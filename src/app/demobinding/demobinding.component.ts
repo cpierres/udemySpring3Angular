@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./demobinding.component.css']
 })
 export class DemobindingComponent {
+  demoInterpolation: string = "Demo binding Component : interpolation";
 
 }
