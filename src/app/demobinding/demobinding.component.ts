@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class DemobindingComponent {
   demoInterpolation: string = "Demo binding Component : interpolation";
-
+  disableButton : boolean = true;
 }
