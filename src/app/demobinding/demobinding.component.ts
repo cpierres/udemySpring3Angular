@@ -9,6 +9,7 @@ export class DemobindingComponent {
   titre: string = "demobinding works!";
   demoInterpolation: string = "Demo binding Component : interpolation";
   disableButton: boolean = true;
+  firstName: string = "Christophe";
 
   changerTitre() {
     this.titre = "Nouveau titre";
